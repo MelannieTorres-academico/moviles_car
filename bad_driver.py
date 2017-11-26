@@ -8,7 +8,7 @@ kms=0
 i=0
 
 payload = {'token': token, 'fuel': fuel, 'kms': kms}
-r = requests.post("http://localhost:8080", data=payload)
+r = requests.post("http://www.sopitas.com/", data=payload)
 print(r.status_code)
 print('{token:',token,', fuel:',fuel,', kms:',kms, '}')
 fuel-=0.0833
@@ -17,7 +17,7 @@ time.sleep(sleep_time)
 
 while (r.status_code==200):
     payload = {'token': token, 'fuel': fuel, 'kms': kms}
-    r = requests.post("http://localhost:8080", data=payload)
+    r = requests.post("http://www.sopitas.com/", data=payload)
     print(r.status_code)
     print('{token:',token,', fuel:',fuel,', kms:',kms, '}')
 
