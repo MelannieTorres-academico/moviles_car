@@ -2,7 +2,7 @@ import requests
 import time
 
 sleep_time=7
-token="c01096e3-c72b-4615-a048-fea5667d453a"
+token="93642fb3-0877-469d-9205-0bbc19f33bc5"
 fuel=60
 kms=0
 url="https://us-central1-bus-app-itesm.cloudfunctions.net/updateVehicleInfo"
