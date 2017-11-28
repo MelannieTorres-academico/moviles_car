@@ -1,7 +1,7 @@
 import requests
 import time
 
-sleep_time=0
+sleep_time=7
 token="9aa2baf9-d193-436b-9d4a-0d14af1af12d"
 fuel=60
 kms=0
